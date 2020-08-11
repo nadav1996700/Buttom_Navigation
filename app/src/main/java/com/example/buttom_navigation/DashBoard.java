@@ -19,7 +19,7 @@ public class DashBoard extends AppCompatActivity {
         //initialize and assign variables
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 
-        //set Home Selected
+        //set DashBoard Selected
         bottomNavigationView.setSelectedItemId(R.id.dashboard);
 
         //perform ItemSelectedListener
